@@ -49,9 +49,10 @@ class UglifyJsPlugin {
     };
   }
 
-  static buildError(err, file, sourceMap, requestShortener) {
+  static buildError(err, file, inputSourceMap, requestShortener) {
     // Handling error which should have line, col, filename and message
     if (err.line) {
+      const sourceMap = new SourceMapConsumer(inputSourceMap);
       const original = sourceMap && sourceMap.originalPositionFor({
         line: err.line,
         column: err.col,
@@ -66,10 +67,11 @@ class UglifyJsPlugin {
     return new Error(`${file} from UglifyJs\n${err.message}`);
   }
 
-  static buildWarnings(warnings, file, sourceMap, warningsFilter, requestShortener) {
-    if (!sourceMap) {
+  static buildWarnings(warnings, file, inputSourceMap, warningsFilter, requestShortener) {
+    if (!inputSourceMap) {
       return warnings;
     }
+    const sourceMap = new SourceMapConsumer(inputSourceMap);
     return warnings.reduce((accWarnings, warning) => {
       const match = warningRegex.exec(warning);
       const line = +match[1];
@@ -108,7 +110,7 @@ class UglifyJsPlugin {
         .concat(compilation.additionalChunkAssets || [])
         .filter(ModuleFilenameHelpers.matchObject.bind(null, this.options))
         .forEach((file) => {
-          let sourceMap;
+          let inputSourceMap;
           const asset = compilation.assets[file];
           if (uglifiedAssets.has(asset)) {
             return;
@@ -116,15 +118,12 @@ class UglifyJsPlugin {
 
           try {
             let input;
-            let inputSourceMap;
 
             if (this.options.sourceMap && asset.sourceAndMap) {
               const { source, map } = asset.sourceAndMap();
 
               input = source;
               inputSourceMap = map;
-
-              sourceMap = new SourceMapConsumer(inputSourceMap);
             } else {
               input = asset.source();
               inputSourceMap = null;
@@ -142,7 +141,6 @@ class UglifyJsPlugin {
             const task = {
               file,
               input,
-              sourceMap,
               inputSourceMap,
               commentsFile,
               extractComments: this.options.extractComments,
@@ -165,7 +163,7 @@ class UglifyJsPlugin {
               UglifyJsPlugin.buildError(
                 error,
                 file,
-                sourceMap,
+                inputSourceMap,
                 requestShortener,
               ),
             );
@@ -179,7 +177,7 @@ class UglifyJsPlugin {
         }
 
         results.forEach((data, index) => {
-          const { file, input, sourceMap, inputSourceMap, commentsFile } = tasks[index];
+          const { file, input, inputSourceMap, commentsFile } = tasks[index];
           const { error, map, code, warnings, extractedComments } = data;
 
           // Handling results
@@ -189,7 +187,7 @@ class UglifyJsPlugin {
               UglifyJsPlugin.buildError(
                 error,
                 file,
-                sourceMap,
+                inputSourceMap,
                 requestShortener,
               ),
             );
@@ -251,7 +249,7 @@ class UglifyJsPlugin {
             const warnArr = UglifyJsPlugin.buildWarnings(
               warnings,
               file,
-              sourceMap,
+              inputSourceMap,
               this.options.warningsFilter,
               requestShortener,
             );
