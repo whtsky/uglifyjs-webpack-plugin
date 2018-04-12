@@ -42,7 +42,7 @@ class UglifyJsPlugin {
       exclude,
       uglifyOptions: {
         output: {
-          comments: extractComments ? false : /^\**!|@preserve|@license|@cc_on/,
+          comments: extractComments ? false : 'some',
         },
         ...uglifyOptions,
       },
@@ -151,9 +151,9 @@ class UglifyJsPlugin {
 
             if (this.options.cache) {
               task.cacheKey = serialize({
-                'uglify-es': versions.uglify,
-                'uglifyjs-webpack-plugin': versions.plugin,
-                'uglifyjs-webpack-plugin-options': this.options,
+                'uglify-js': versions.uglify,
+                'uglifyjs-3-webpack-plugin': versions.plugin,
+                'uglifyjs-3-webpack-plugin-options': this.options,
                 path: compiler.outputPath ? `${compiler.outputPath}/${file}` : file,
                 hash: crypto.createHash('md4').update(input).digest('hex'),
               });

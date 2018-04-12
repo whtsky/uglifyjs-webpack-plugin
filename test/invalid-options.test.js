@@ -93,34 +93,6 @@ describe('when applied with invalid options', () => {
     expect(() => {
       new UglifyJsPlugin({ uglifyOptions: { ie8: 'false' } });
     }).toThrowErrorMatchingSnapshot();
-
-    expect(() => {
-      new UglifyJsPlugin({ uglifyOptions: { emca: 5 } });
-    }).not.toThrow();
-
-    expect(() => {
-      new UglifyJsPlugin({ uglifyOptions: { emca: 8 } });
-    }).not.toThrow();
-
-    expect(() => {
-      new UglifyJsPlugin({ uglifyOptions: { ecma: 7.5 } });
-    }).toThrowErrorMatchingSnapshot();
-
-    expect(() => {
-      new UglifyJsPlugin({ uglifyOptions: { ecma: true } });
-    }).toThrowErrorMatchingSnapshot();
-
-    expect(() => {
-      new UglifyJsPlugin({ uglifyOptions: { ecma: '5' } });
-    }).toThrowErrorMatchingSnapshot();
-
-    expect(() => {
-      new UglifyJsPlugin({ uglifyOptions: { ecma: 3 } });
-    }).toThrowErrorMatchingSnapshot();
-
-    expect(() => {
-      new UglifyJsPlugin({ uglifyOptions: { ecma: 10 } });
-    }).toThrowErrorMatchingSnapshot();
   });
 
   it('outputs uglify errors', () => {
@@ -139,6 +111,7 @@ describe('when applied with invalid options', () => {
     const [eventBinding] = pluginEnvironment.getEventBindings();
 
     const chunkPluginEnvironment = new PluginEnvironment();
+
     const compilation = chunkPluginEnvironment.getEnvironmentStub();
     compilation.assets = {
       'test.js': {

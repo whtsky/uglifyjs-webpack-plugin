@@ -1,13 +1,13 @@
 import foo, { bar } from './dep';
 
 function Foo() {
-  const b = foo;
-  const baz = `baz${Math.random()}`;
-  return () => {
+  var b = foo;
+  var baz = 'baz' + Math.random().toString();
+  return function () {
     return {
       a: b + bar + baz,
-      b,
-      baz,
+      b: b,
+      baz: baz,
     };
   };
 }

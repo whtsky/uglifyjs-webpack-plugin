@@ -12,22 +12,20 @@
       src="https://cdn.rawgit.com/webpack/media/e7485eb2/logo/icon.svg">
   </a>
   <h1>UglifyJS Webpack Plugin</h1>
-	<p>This plugin uses <a href="https://github.com/mishoo/UglifyJS2/tree/harmony">UglifyJS v3 </a><a href="https://npmjs.com/package/uglify-es">(`uglify-es`)</a> to minify your JavaScript</p>
+	<p>This plugin uses <a href="https://github.com/mishoo/UglifyJS2/">UglifyJS v3 </a>to minify your JavaScript</p>
 </div>
-
-> ℹ️  `webpack < v4.0.0` currently contains [`v0.4.6`](https://github.com/webpack-contrib/uglifyjs-webpack-plugin/tree/version-0.4) of this plugin under `webpack.optimize.UglifyJsPlugin` as an alias. For usage of the latest version (`v1.0.0`), please follow the instructions below. Aliasing `v1.0.0` as `webpack.optimize.UglifyJsPlugin` is scheduled for `webpack v4.0.0`
 
 <h2 align="center">Install</h2>
 
 ```bash
-npm i -D uglifyjs-webpack-plugin
+npm i -D uglifyjs-3-webpack-plugin
 ```
 
 <h2 align="center">Usage</h2>
 
 **webpack.config.js**
 ```js
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const UglifyJsPlugin = require('uglifyjs-3-webpack-plugin')
 
 module.exports = {
   plugins: [
@@ -46,7 +44,7 @@ module.exports = {
 |**`cache`**|`{Boolean\|String}`|`false`|Enable file caching|
 |**`parallel`**|`{Boolean\|Number}`|`false`|Use multi-process parallel running to improve the build speed|
 |**`sourceMap`**|`{Boolean}`|`false`|Use source maps to map error message locations to modules (This slows down the compilation) ⚠️ **`cheap-source-map` options don't work with this plugin**|
-|**`uglifyOptions`**|`{Object}`|[`{...defaults}`](https://github.com/webpack-contrib/uglifyjs-webpack-plugin/tree/master#uglifyoptions)|`uglify` [Options](https://github.com/mishoo/UglifyJS2/tree/harmony#minify-options)|
+|**`uglifyOptions`**|`{Object}`|[`{...defaults}`](https://github.com/webpack-contrib/uglifyjs-webpack-plugin/tree/master#uglifyoptions)|`uglify` [Options](https://github.com/mishoo/UglifyJS2/tree/master#minify-options)|
 |**`extractComments`**|`{Boolean\|RegExp\|Function<(node, comment) -> {Boolean\|Object}>}`|`false`|Whether comments shall be extracted to a separate file, (see [details](https://github.com/webpack/webpack/commit/71933e979e51c533b432658d5e37917f9e71595a) (`webpack >= 2.3.0`)|
 |**`warningsFilter`**|`{Function(source) -> {Boolean}}`|`() => true`|Allow to filter uglify warnings|
 
@@ -156,29 +154,25 @@ Number of concurrent runs.
 
 > ⚠️ **`cheap-source-map` options don't work with this plugin**
 
-### [`uglifyOptions`](https://github.com/mishoo/UglifyJS2/tree/harmony#minify-options)
+### [`uglifyOptions`](https://github.com/mishoo/UglifyJS2/tree/master#minify-options)
 
 |Name|Type|Default|Description|
 |:--:|:--:|:-----:|:----------|
-|**`ecma`**|`{Number}`|`undefined`|Supported ECMAScript Version (`5`, `6`, `7` or `8`). Affects `parse`, `compress` && `output` options|
 |**`warnings`**|`{Boolean}`|`false`|Display Warnings|
-|**[`parse`](https://github.com/mishoo/UglifyJS2/tree/harmony#parse-options)**|`{Object}`|`{}`|Additional Parse Options|
-|**[`compress`](https://github.com/mishoo/UglifyJS2/tree/harmony#compress-options)**|`{Boolean\|Object}`|`true`|Additional Compress Options|
-|**[`mangle`](https://github.com/mishoo/UglifyJS2/tree/harmony#mangle-options)**|`{Boolean\|Object}`|`true`|Enable Name Mangling (See [Mangle Properties](https://github.com/mishoo/UglifyJS2/tree/harmony#mangle-properties-options) for advanced setups, use with ⚠️)|
-|**[`output`](https://github.com/mishoo/UglifyJS2/tree/harmony#output-options)**|`{Object}`|`{}`|Additional Output Options (The defaults are optimized for best compression)|
+|**[`parse`](https://github.com/mishoo/UglifyJS2/tree/master#parse-options)**|`{Object}`|`{}`|Additional Parse Options|
+|**[`compress`](https://github.com/mishoo/UglifyJS2/tree/master#compress-options)**|`{Boolean\|Object}`|`true`|Additional Compress Options|
+|**[`mangle`](https://github.com/mishoo/UglifyJS2/tree/master#mangle-options)**|`{Boolean\|Object}`|`true`|Enable Name Mangling (See [Mangle Properties](https://github.com/mishoo/UglifyJS2/tree/master#mangle-properties-options) for advanced setups, use with ⚠️)|
+|**[`output`](https://github.com/mishoo/UglifyJS2/tree/master#output-options)**|`{Object}`|`{}`|Additional Output Options (The defaults are optimized for best compression)|
 |**`toplevel`**|`{Boolean}`|`false`|Enable top level variable and function name mangling and to drop unused variables and functions|
 |**`nameCache`**|`{Object}`|`null`|Enable cache of mangled variable and property names across multiple invocations|
 |**`ie8`**|`{Boolean}`|`false`|Enable IE8 Support|
-|**`keep_classnames`**|`{Boolean}`|`undefined`|Enable prevent discarding or mangling of class names|
-|**`keep_fnames`**|`{Boolean}`|`false`| Enable prevent discarding or mangling of function names. Useful for code relying on `Function.prototype.name`. If the top level minify option `keep_classnames` is `undefined` it will be overriden with the value of the top level minify option `keep_fnames`|
-|**`safari10`**|`{Boolean}`|`false`|Enable work around Safari 10/11 bugs in loop scoping and `await`|
+|**`keep_fnames`**|`{Boolean}`|`false`| Enable prevent discarding or mangling of function names. Useful for code relying on `Function.prototype.name`.|
 
 **webpack.config.js**
 ```js
 [
   new UglifyJsPlugin({
     uglifyOptions: {
-      ecma: 8,
       warnings: false,
       parse: {...options},
       compress: {...options},
@@ -196,9 +190,7 @@ Number of concurrent runs.
       toplevel: false,
       nameCache: null,
       ie8: false,
-      keep_classnames: undefined,
       keep_fnames: false,
-      safari10: false,
     }
   })
 ]

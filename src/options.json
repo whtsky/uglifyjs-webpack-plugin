@@ -25,11 +25,6 @@
       "additionalProperties": true,
       "type": "object",
       "properties": {
-        "ecma": {
-          "type": "integer",
-          "minimum": 5,
-          "maximum": 8
-        },
         "warnings": {
           "type": ["boolean", "string"],
           "enum": [true, false, "verbose"]

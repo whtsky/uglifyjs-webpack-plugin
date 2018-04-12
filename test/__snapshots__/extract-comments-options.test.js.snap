@@ -44,10 +44,7 @@ exports[`when options.extractComments normalizes when options.extractComments is
 
 exports[`when options.extractComments normalizes when options.extractComments is not specify: test.js 1`] = `"var foo=1;"`;
 
-exports[`when options.extractComments normalizes when options.extractComments is not specify: test1.js 1`] = `
-"/*! Legal Comment */
-var foo=1;"
-`;
+exports[`when options.extractComments normalizes when options.extractComments is not specify: test1.js 1`] = `"var foo=1;"`;
 
 exports[`when options.extractComments normalizes when options.extractComments is not specify: warnings 1`] = `Array []`;
 

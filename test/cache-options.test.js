@@ -8,7 +8,7 @@ import {
   cleanErrorStack,
 } from './helpers';
 
-const cacheDir = findCacheDir({ name: 'uglifyjs-webpack-plugin' });
+const cacheDir = findCacheDir({ name: 'uglifyjs-3-webpack-plugin' });
 
 describe('when options.cache', () => {
   const assets = {
