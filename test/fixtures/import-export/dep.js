@@ -1,2 +1,2 @@
-export const bar = 'bar';
+export var bar = 'bar';
 export default 'foo';

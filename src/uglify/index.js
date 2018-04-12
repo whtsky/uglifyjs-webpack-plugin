@@ -15,7 +15,7 @@ try {
 export default class {
   constructor(options = {}) {
     const { cache, parallel } = options;
-    this.cacheDir = cache === true ? findCacheDir({ name: 'uglifyjs-webpack-plugin' }) : cache;
+    this.cacheDir = cache === true ? findCacheDir({ name: 'uglifyjs-3-webpack-plugin' }) : cache;
     this.maxConcurrentWorkers = parallel === true ? os.cpus().length - 1 : Math.min(Number(parallel) || 0, os.cpus().length - 1);
   }
 

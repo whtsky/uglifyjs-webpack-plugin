@@ -20,7 +20,7 @@ exports[`when using MultiCompiler with empty options matches snapshot: errors 2`
 
 exports[`when using MultiCompiler with empty options matches snapshot: errors 3`] = `Array []`;
 
-exports[`when using MultiCompiler with empty options matches snapshot: main.4dff64fd1192e906e901.js 1`] = `
+exports[`when using MultiCompiler with empty options matches snapshot: main.8a9ef9e5a8e47bdba2c6.js 1`] = `
 "/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -93,10 +93,10 @@ exports[`when using MultiCompiler with empty options matches snapshot: main.4dff
 // foo
 /* @preserve*/
 // bar
-const a = 2 + 2;
+var a = 2 + 2;
 
 module.exports = function Foo() {
-  const b = 2 + 2;
+  var b = 2 + 2;
   console.log(b + 1 + 2);
 };
 
@@ -105,9 +105,9 @@ module.exports = function Foo() {
 /******/ ]);"
 `;
 
-exports[`when using MultiCompiler with empty options matches snapshot: main.4dff64fd1192e906e901.js 2`] = `"!function(n){var t={};function e(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return n[r].call(o.exports,o,o.exports,e),o.l=!0,o.exports}e.m=n,e.c=t,e.d=function(n,t,r){e.o(n,t)||Object.defineProperty(n,t,{configurable:!1,enumerable:!0,get:r})},e.n=function(n){var t=n&&n.__esModule?function(){return n.default}:function(){return n};return e.d(t,\\"a\\",t),t},e.o=function(n,t){return Object.prototype.hasOwnProperty.call(n,t)},e.p=\\"\\",e(e.s=0)}([function(n,t){n.exports=function(){console.log(7)}}]);"`;
+exports[`when using MultiCompiler with empty options matches snapshot: main.8a9ef9e5a8e47bdba2c6.js 2`] = `"!function(e){var r={};function o(n){if(r[n])return r[n].exports;var t=r[n]={i:n,l:!1,exports:{}};return e[n].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.m=e,o.c=r,o.d=function(n,t,e){o.o(n,t)||Object.defineProperty(n,t,{configurable:!1,enumerable:!0,get:e})},o.n=function(n){var t=n&&n.__esModule?function(){return n.default}:function(){return n};return o.d(t,\\"a\\",t),t},o.o=function(n,t){return Object.prototype.hasOwnProperty.call(n,t)},o.p=\\"\\",o(o.s=0)}([function(n,t){n.exports=function(){console.log(7)}}]);"`;
 
-exports[`when using MultiCompiler with empty options matches snapshot: main.286f3599c95e4eaa6950.js 1`] = `"!function(t){var e={};function r(n){if(e[n])return e[n].exports;var o=e[n]={i:n,l:!1,exports:{}};return t[n].call(o.exports,o,o.exports,r),o.l=!0,o.exports}r.m=t,r.c=e,r.d=function(t,e,n){r.o(t,e)||Object.defineProperty(t,e,{configurable:!1,enumerable:!0,get:n})},r.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return r.d(e,\\"a\\",e),e},r.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},r.p=\\"\\",r(r.s=0)}([function(t,e,r){\\"use strict\\";Object.defineProperty(e,\\"__esModule\\",{value:!0});var n=r(1);e.default=function(){const t=n.b,e=\`baz\${Math.random()}\`;return()=>({a:t+n.a+e,b:t,baz:e})}},function(t,e,r){\\"use strict\\";e.a=\\"bar\\",e.b=\\"foo\\"}]);"`;
+exports[`when using MultiCompiler with empty options matches snapshot: main.c7898b7a9136d7f2b077.js 1`] = `"!function(n){var e={};function o(t){if(e[t])return e[t].exports;var r=e[t]={i:t,l:!1,exports:{}};return n[t].call(r.exports,r,r.exports,o),r.l=!0,r.exports}o.m=n,o.c=e,o.d=function(t,r,n){o.o(t,r)||Object.defineProperty(t,r,{configurable:!1,enumerable:!0,get:n})},o.n=function(t){var r=t&&t.__esModule?function(){return t.default}:function(){return t};return o.d(r,\\"a\\",r),r},o.o=function(t,r){return Object.prototype.hasOwnProperty.call(t,r)},o.p=\\"\\",o(o.s=0)}([function(t,r,n){\\"use strict\\";Object.defineProperty(r,\\"__esModule\\",{value:!0});var e=n(1);r.default=function(){var t=e.b,r=\\"baz\\"+Math.random().toString();return function(){return{a:t+e.a+r,b:t,baz:r}}}},function(t,r,n){\\"use strict\\";n.d(r,\\"a\\",function(){return e});var e=\\"bar\\";r.b=\\"foo\\"}]);"`;
 
 exports[`when using MultiCompiler with empty options matches snapshot: warnings 1`] = `Array []`;
 

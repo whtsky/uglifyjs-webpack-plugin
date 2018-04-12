@@ -1,4 +1,4 @@
-import("./async-dep").then(() => {
+import("./async-dep").then(function () {
   console.log('Good')
 });
 

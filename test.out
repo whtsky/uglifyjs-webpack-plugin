@@ -1,0 +1,3601 @@
+
+> uglifyjs-3-webpack-plugin@1.2.4 test /Users/haotian.wu/codes/uglifyjs-3-webpack-plugin
+> jest
+
+FAIL test/parallel-options.test.js
+  ● Console
+
+    console.log src/index.js:46
+       0 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       webpackBootstrap
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       install a JSONP callback for chunk loading
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       add "moreModules" to the modules object,
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       then flag all "chunkIds" as loaded and fire callback
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       objects to store loaded and loading chunks
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The require function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Check if module is in cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Create a new module (and put it into the cache)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Execute the module function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Return the exports of the module
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Flag the module as loaded
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the modules object (__webpack_modules__)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       define getter function for harmony exports
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       getDefaultExport function for compatibility with non-harmony modules
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Object.prototype.hasOwnProperty.call
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       __webpack_public_path__
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       on error function for async loading
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      **********************************************************************
+    console.log src/index.js:46
+      ****
+    console.log undefined:4
+       0 
+    console.log undefined:4
+      *
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       webpackBootstrap
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       install a JSONP callback for chunk loading
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       add "moreModules" to the modules object,
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       then flag all "chunkIds" as loaded and fire callback
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       The module cache
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       objects to store loaded and loading chunks
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       The require function
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       Check if module is in cache
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       Create a new module (and put it into the cache)
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       Execute the module function
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       Return the exports of the module
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       Flag the module as loaded
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       expose the modules object (__webpack_modules__)
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       expose the module cache
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       define getter function for harmony exports
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       getDefaultExport function for compatibility with non-harmony modules
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       Object.prototype.hasOwnProperty.call
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       __webpack_public_path__
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       on error function for async loading
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      **********************************************************************
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       0 
+    console.log undefined:4
+      *
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       webpackBootstrap
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       install a JSONP callback for chunk loading
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       add "moreModules" to the modules object,
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       then flag all "chunkIds" as loaded and fire callback
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       The module cache
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       objects to store loaded and loading chunks
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       The require function
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       Check if module is in cache
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       Create a new module (and put it into the cache)
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       Execute the module function
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       Return the exports of the module
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       Flag the module as loaded
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       expose the modules object (__webpack_modules__)
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       expose the module cache
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       define getter function for harmony exports
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       getDefaultExport function for compatibility with non-harmony modules
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       Object.prototype.hasOwnProperty.call
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       __webpack_public_path__
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      ****
+    console.log undefined:4
+       on error function for async loading
+    console.log undefined:4
+      ****
+    console.log undefined:4
+      **********************************************************************
+    console.log undefined:4
+      ****
+
+  ● when options.parallel › false › matches snapshot
+
+    expect(value).toMatchSnapshot()
+    
+    Received value does not match stored snapshot 1.
+    
+    - "!function(r){var n=window.webpackJsonp;window.webpackJsonp=function(e,u,c){for(var f,i,p,a=0,l=[];a<e.length;a++)i=e[a],o[i]&&l.push(o[i][0]),o[i]=0;for(f in u)Object.prototype.hasOwnProperty.call(u,f)&&(r[f]=u[f]);for(n&&n(e,u,c);l.length;)l.shift()();if(c)for(a=0;a<c.length;a++)p=t(t.s=c[a]);return p};var e={},o={1:0};function t(n){if(e[n])return e[n].exports;var o=e[n]={i:n,l:!1,exports:{}};return r[n].call(o.exports,o,o.exports,t),o.l=!0,o.exports}t.m=r,t.c=e,t.d=function(r,n,e){t.o(r,n)||Object.defineProperty(r,n,{configurable:!1,enumerable:!0,get:e})},t.n=function(r){var n=r&&r.__esModule?function(){return r.default}:function(){return r};return t.d(n,"a",n),n},t.o=function(r,n){return Object.prototype.hasOwnProperty.call(r,n)},t.p="",t.oe=function(r){throw console.error(r),r}}([]);"
+    + "!function(i){var p=window.webpackJsonp;window.webpackJsonp=function(r,n,e){for(var o,t,u,c=0,f=[];c<r.length;c++)t=r[c],a[t]&&f.push(a[t][0]),a[t]=0;for(o in n)Object.prototype.hasOwnProperty.call(n,o)&&(i[o]=n[o]);for(p&&p(r,n,e);f.length;)f.shift()();if(e)for(c=0;c<e.length;c++)u=l(l.s=e[c]);return u};var e={},a={1:0};function l(r){if(e[r])return e[r].exports;var n=e[r]={i:r,l:!1,exports:{}};return i[r].call(n.exports,n,n.exports,l),n.l=!0,n.exports}l.m=i,l.c=e,l.d=function(r,n,e){l.o(r,n)||Object.defineProperty(r,n,{configurable:!1,enumerable:!0,get:e})},l.n=function(r){var n=r&&r.__esModule?function(){return r.default}:function(){return r};return l.d(n,"a",n),n},l.o=function(r,n){return Object.prototype.hasOwnProperty.call(r,n)},l.p="",l.oe=function(r){throw console.error(r),r}}([]);"
+
+      138 |         for (const file in stats.compilation.assets) {
+      139 |           if (Object.prototype.hasOwnProperty.call(stats.compilation.assets, file)) {
+    > 140 |             expect(stats.compilation.assets[file].source()).toMatchSnapshot(file);
+      141 |           }
+      142 |         }
+      143 |       });
+      
+      at test/parallel-options.test.js:140:61
+
+  ● when options.parallel › true › matches snapshot
+
+    expect(value).toMatchSnapshot()
+    
+    Received value does not match stored snapshot 1.
+    
+    - "webpackJsonp([0],[
+    /* 0 */
+    /***/ (function(module, exports) {
+    
+    // foo
+    /* @preserve*/
+    // bar
+    var a = 2 + 2;
+    
+    module.exports = function Foo() {
+      var b = 2 + 2;
+      console.log(b + 1 + 2);
+    };
+    
+    
+    /***/ })
+    ],[0]);"
+    + "webpackJsonp([0],[function(o,n){o.exports=function(){console.log(7)}}],[0]);"
+
+      245 |         for (const file in stats.compilation.assets) {
+      246 |           if (Object.prototype.hasOwnProperty.call(stats.compilation.assets, file)) {
+    > 247 |             expect(stats.compilation.assets[file].source()).toMatchSnapshot(file);
+      248 |           }
+      249 |         }
+      250 |       });
+      
+      at test/parallel-options.test.js:247:61
+
+  ● when options.parallel › true › matches snapshot
+
+    expect(value).toMatchSnapshot()
+    
+    Received value does not match stored snapshot 1.
+    
+    - "!function(r){var n=window.webpackJsonp;window.webpackJsonp=function(e,u,c){for(var f,i,p,a=0,l=[];a<e.length;a++)i=e[a],o[i]&&l.push(o[i][0]),o[i]=0;for(f in u)Object.prototype.hasOwnProperty.call(u,f)&&(r[f]=u[f]);for(n&&n(e,u,c);l.length;)l.shift()();if(c)for(a=0;a<c.length;a++)p=t(t.s=c[a]);return p};var e={},o={1:0};function t(n){if(e[n])return e[n].exports;var o=e[n]={i:n,l:!1,exports:{}};return r[n].call(o.exports,o,o.exports,t),o.l=!0,o.exports}t.m=r,t.c=e,t.d=function(r,n,e){t.o(r,n)||Object.defineProperty(r,n,{configurable:!1,enumerable:!0,get:e})},t.n=function(r){var n=r&&r.__esModule?function(){return r.default}:function(){return r};return t.d(n,"a",n),n},t.o=function(r,n){return Object.prototype.hasOwnProperty.call(r,n)},t.p="",t.oe=function(r){throw console.error(r),r}}([]);"
+    + "!function(i){var p=window.webpackJsonp;window.webpackJsonp=function(r,n,e){for(var o,t,u,c=0,f=[];c<r.length;c++)t=r[c],a[t]&&f.push(a[t][0]),a[t]=0;for(o in n)Object.prototype.hasOwnProperty.call(n,o)&&(i[o]=n[o]);for(p&&p(r,n,e);f.length;)f.shift()();if(e)for(c=0;c<e.length;c++)u=l(l.s=e[c]);return u};var e={},a={1:0};function l(r){if(e[r])return e[r].exports;var n=e[r]={i:r,l:!1,exports:{}};return i[r].call(n.exports,n,n.exports,l),n.l=!0,n.exports}l.m=i,l.c=e,l.d=function(r,n,e){l.o(r,n)||Object.defineProperty(r,n,{configurable:!1,enumerable:!0,get:e})},l.n=function(r){var n=r&&r.__esModule?function(){return r.default}:function(){return r};return l.d(n,"a",n),n},l.o=function(r,n){return Object.prototype.hasOwnProperty.call(r,n)},l.p="",l.oe=function(r){throw console.error(r),r}}([]);"
+
+      245 |         for (const file in stats.compilation.assets) {
+      246 |           if (Object.prototype.hasOwnProperty.call(stats.compilation.assets, file)) {
+    > 247 |             expect(stats.compilation.assets[file].source()).toMatchSnapshot(file);
+      248 |           }
+      249 |         }
+      250 |       });
+      
+      at test/parallel-options.test.js:247:61
+
+  ● when options.parallel › number › matches snapshot
+
+    expect(value).toMatchSnapshot()
+    
+    Received value does not match stored snapshot 1.
+    
+    - "webpackJsonp([0],[
+    /* 0 */
+    /***/ (function(module, exports) {
+    
+    // foo
+    /* @preserve*/
+    // bar
+    var a = 2 + 2;
+    
+    module.exports = function Foo() {
+      var b = 2 + 2;
+      console.log(b + 1 + 2);
+    };
+    
+    
+    /***/ })
+    ],[0]);"
+    + "webpackJsonp([0],[function(o,n){o.exports=function(){console.log(7)}}],[0]);"
+
+      354 |         for (const file in stats.compilation.assets) {
+      355 |           if (Object.prototype.hasOwnProperty.call(stats.compilation.assets, file)) {
+    > 356 |             expect(stats.compilation.assets[file].source()).toMatchSnapshot(file);
+      357 |           }
+      358 |         }
+      359 |       });
+      
+      at test/parallel-options.test.js:356:61
+
+  ● when options.parallel › number › matches snapshot
+
+    expect(value).toMatchSnapshot()
+    
+    Received value does not match stored snapshot 1.
+    
+    - "!function(r){var n=window.webpackJsonp;window.webpackJsonp=function(e,u,c){for(var f,i,p,a=0,l=[];a<e.length;a++)i=e[a],o[i]&&l.push(o[i][0]),o[i]=0;for(f in u)Object.prototype.hasOwnProperty.call(u,f)&&(r[f]=u[f]);for(n&&n(e,u,c);l.length;)l.shift()();if(c)for(a=0;a<c.length;a++)p=t(t.s=c[a]);return p};var e={},o={1:0};function t(n){if(e[n])return e[n].exports;var o=e[n]={i:n,l:!1,exports:{}};return r[n].call(o.exports,o,o.exports,t),o.l=!0,o.exports}t.m=r,t.c=e,t.d=function(r,n,e){t.o(r,n)||Object.defineProperty(r,n,{configurable:!1,enumerable:!0,get:e})},t.n=function(r){var n=r&&r.__esModule?function(){return r.default}:function(){return r};return t.d(n,"a",n),n},t.o=function(r,n){return Object.prototype.hasOwnProperty.call(r,n)},t.p="",t.oe=function(r){throw console.error(r),r}}([]);"
+    + "!function(i){var p=window.webpackJsonp;window.webpackJsonp=function(r,n,e){for(var o,t,u,c=0,f=[];c<r.length;c++)t=r[c],a[t]&&f.push(a[t][0]),a[t]=0;for(o in n)Object.prototype.hasOwnProperty.call(n,o)&&(i[o]=n[o]);for(p&&p(r,n,e);f.length;)f.shift()();if(e)for(c=0;c<e.length;c++)u=l(l.s=e[c]);return u};var e={},a={1:0};function l(r){if(e[r])return e[r].exports;var n=e[r]={i:r,l:!1,exports:{}};return i[r].call(n.exports,n,n.exports,l),n.l=!0,n.exports}l.m=i,l.c=e,l.d=function(r,n,e){l.o(r,n)||Object.defineProperty(r,n,{configurable:!1,enumerable:!0,get:e})},l.n=function(r){var n=r&&r.__esModule?function(){return r.default}:function(){return r};return l.d(n,"a",n),n},l.o=function(r,n){return Object.prototype.hasOwnProperty.call(r,n)},l.p="",l.oe=function(r){throw console.error(r),r}}([]);"
+
+      354 |         for (const file in stats.compilation.assets) {
+      355 |           if (Object.prototype.hasOwnProperty.call(stats.compilation.assets, file)) {
+    > 356 |             expect(stats.compilation.assets[file].source()).toMatchSnapshot(file);
+      357 |           }
+      358 |         }
+      359 |       });
+      
+      at test/parallel-options.test.js:356:61
+
+ › 3 obsolete snapshots found.
+  - when options.parallel false matches snapshot: main.0c220ec66316af2c1b24.js 1
+  - when options.parallel number matches snapshot: main.0c220ec66316af2c1b24.js 1
+  - when options.parallel true matches snapshot: main.0c220ec66316af2c1b24.js 1
+ › 5 snapshot tests failed.
+ 0 
+*
+****
+ webpackBootstrap
+****
+ install a JSONP callback for chunk loading
+****
+****
+****
+****
+ add "moreModules" to the modules object,
+****
+ then flag all "chunkIds" as loaded and fire callback
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+ The module cache
+****
+****
+****
+****
+****
+ objects to store loaded and loading chunks
+****
+****
+****
+ The require function
+****
+****
+****
+ Check if module is in cache
+****
+****
+****
+****
+ Create a new module (and put it into the cache)
+****
+****
+****
+****
+****
+****
+****
+ Execute the module function
+****
+****
+****
+ Return the exports of the module
+****
+****
+****
+ Flag the module as loaded
+****
+****
+****
+****
+****
+ expose the modules object (__webpack_modules__)
+****
+****
+****
+ expose the module cache
+****
+****
+****
+ define getter function for harmony exports
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+ getDefaultExport function for compatibility with non-harmony modules
+****
+****
+****
+****
+****
+****
+****
+****
+****
+ Object.prototype.hasOwnProperty.call
+****
+****
+****
+ __webpack_public_path__
+****
+****
+****
+ on error function for async loading
+****
+**********************************************************************
+****
+FAIL test/source-map-options.test.js
+  ● Console
+
+    console.log src/index.js:46
+       0 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       webpackBootstrap
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       install a JSONP callback for chunk loading
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       add "moreModules" to the modules object,
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       then flag all "chunkIds" as loaded and fire callback
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       objects to store loaded and loading chunks
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The require function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Check if module is in cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Create a new module (and put it into the cache)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Execute the module function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Return the exports of the module
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Flag the module as loaded
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the modules object (__webpack_modules__)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       define getter function for harmony exports
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       getDefaultExport function for compatibility with non-harmony modules
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Object.prototype.hasOwnProperty.call
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       __webpack_public_path__
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       on error function for async loading
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      **********************************************************************
+    console.log src/index.js:46
+      ****
+
+  ● when options.sourceMap › true › matches snapshot
+
+    expect(value).toMatchSnapshot()
+    
+    Received value does not match stored snapshot 1.
+    
+    - "!function(r){var n=window.webpackJsonp;window.webpackJsonp=function(e,u,c){for(var f,i,p,a=0,l=[];a<e.length;a++)i=e[a],o[i]&&l.push(o[i][0]),o[i]=0;for(f in u)Object.prototype.hasOwnProperty.call(u,f)&&(r[f]=u[f]);for(n&&n(e,u,c);l.length;)l.shift()();if(c)for(a=0;a<c.length;a++)p=t(t.s=c[a]);return p};var e={},o={1:0};function t(n){if(e[n])return e[n].exports;var o=e[n]={i:n,l:!1,exports:{}};return r[n].call(o.exports,o,o.exports,t),o.l=!0,o.exports}t.m=r,t.c=e,t.d=function(r,n,e){t.o(r,n)||Object.defineProperty(r,n,{configurable:!1,enumerable:!0,get:e})},t.n=function(r){var n=r&&r.__esModule?function(){return r.default}:function(){return r};return t.d(n,"a",n),n},t.o=function(r,n){return Object.prototype.hasOwnProperty.call(r,n)},t.p="",t.oe=function(r){throw console.error(r),r}}([]);"
+    + "!function(i){var p=window.webpackJsonp;window.webpackJsonp=function(r,n,e){for(var o,t,u,c=0,f=[];c<r.length;c++)t=r[c],a[t]&&f.push(a[t][0]),a[t]=0;for(o in n)Object.prototype.hasOwnProperty.call(n,o)&&(i[o]=n[o]);for(p&&p(r,n,e);f.length;)f.shift()();if(e)for(c=0;c<e.length;c++)u=l(l.s=e[c]);return u};var e={},a={1:0};function l(r){if(e[r])return e[r].exports;var n=e[r]={i:r,l:!1,exports:{}};return i[r].call(n.exports,n,n.exports,l),n.l=!0,n.exports}l.m=i,l.c=e,l.d=function(r,n,e){l.o(r,n)||Object.defineProperty(r,n,{configurable:!1,enumerable:!0,get:e})},l.n=function(r){var n=r&&r.__esModule?function(){return r.default}:function(){return r};return l.d(n,"a",n),n},l.o=function(r,n){return Object.prototype.hasOwnProperty.call(r,n)},l.p="",l.oe=function(r){throw console.error(r),r}}([]);"
+
+      136 |             asset.map.sources = [];
+      137 | 
+    > 138 |             expect(asset.source).toMatchSnapshot(`asset ${file}`);
+      139 |             expect(asset.map).toMatchSnapshot(`source map ${file}`);
+      140 |           }
+      141 |         }
+      
+      at test/source-map-options.test.js:138:34
+
+  ● when options.sourceMap › true › matches snapshot
+
+    expect(value).toMatchSnapshot()
+    
+    Received value does not match stored snapshot 1.
+    
+    - Snapshot
+    + Received
+    
+    @@ -1,8 +1,8 @@
+      Object {
+        "file": "x",
+    -   "mappings": "aACA,IAAAA,EAAAC,OAAA,aACAA,OAAA,sBAAAC,EAAAC,EAAAC,GAIA,IADA,IAAAC,EAAAC,EAAAC,EAAAC,EAAA,EAAAC,KACQD,EAAAN,EAAAQ,OAAoBF,IAC5BF,EAAAJ,EAAAM,GACAG,EAAAL,IACAG,EAAAG,KAAAD,EAAAL,GAAA,IAEAK,EAAAL,GAAA,EAEA,IAAAD,KAAAF,EACAU,OAAAC,UAAAC,eAAAC,KAAAb,EAAAE,KACAY,EAAAZ,GAAAF,EAAAE,IAIA,IADAL,KAAAE,EAAAC,EAAAC,GACAK,EAAAC,QACAD,EAAAS,OAAAT,GAEA,GAAAL,EACA,IAAAI,EAAA,EAAYA,EAAAJ,EAAAM,OAA2BF,IACvCD,EAAAY,IAAAC,EAAAhB,EAAAI,IAGA,OAAAD,GAIA,IAAAc,KAGAV,GACAW,EAAA,GAIA,SAAAH,EAAAd,GAGA,GAAAgB,EAAAhB,GACA,OAAAgB,EAAAhB,GAAAkB,QAGA,IAAAC,EAAAH,EAAAhB,IACAG,EAAAH,EACAoB,GAAA,EACAF,YAUA,OANAN,EAAAZ,GAAAW,KAAAQ,EAAAD,QAAAC,IAAAD,QAAAJ,GAGAK,EAAAC,GAAA,EAGAD,EAAAD,QAKAJ,EAAAO,EAAAT,EAGAE,EAAAQ,EAAAN,EAGAF,EAAAS,EAAA,SAAAL,EAAAM,EAAAC,GACAX,EAAAY,EAAAR,EAAAM,IACAhB,OAAAmB,eAAAT,EAAAM,GACAI,cAAA,EACAC,YAAA,EACAC,IAAAL,KAMAX,EAAAiB,EAAA,SAAAZ,GACA,IAAAM,EAAAN,KAAAa,WACA,WAA2B,OAAAb,EAAA,SAC3B,WAAiC,OAAAA,GAEjC,OADAL,EAAAS,EAAAE,EAAA,IAAAA,GACAA,GAIAX,EAAAY,EAAA,SAAAO,EAAAC,GAAsD,OAAA1B,OAAAC,UAAAC,eAAAC,KAAAsB,EAAAC,IAGtDpB,EAAAqB,EAAA,GAGArB,EAAAsB,GAAA,SAAAC,GAA8D,MAApBC,QAAAC,MAAAF,GAAoBA",
+    +   "mappings": "aACA,IAAAA,EAAAC,OAAA,aACAA,OAAA,sBAAAC,EAAAC,EAAAC,GAIA,IADA,IAAAC,EAAAC,EAAAC,EAAAC,EAAA,EAAAC,EAAA,GACQD,EAAAN,EAAAQ,OAAoBF,IAC5BF,EAAAJ,EAAAM,GACAG,EAAAL,IACAG,EAAAG,KAAAD,EAAAL,GAAA,IAEAK,EAAAL,GAAA,EAEA,IAAAD,KAAAF,EACAU,OAAAC,UAAAC,eAAAC,KAAAb,EAAAE,KACAY,EAAAZ,GAAAF,EAAAE,IAIA,IADAL,KAAAE,EAAAC,EAAAC,GACAK,EAAAC,QACAD,EAAAS,OAAAT,GAEA,GAAAL,EACA,IAAAI,EAAA,EAAYA,EAAAJ,EAAAM,OAA2BF,IACvCD,EAAAY,IAAAC,EAAAhB,EAAAI,IAGA,OAAAD,GAIA,IAAAc,EAAA,GAGAV,EAAA,CACAW,EAAA,GAIA,SAAAH,EAAAd,GAGA,GAAAgB,EAAAhB,GACA,OAAAgB,EAAAhB,GAAAkB,QAGA,IAAAC,EAAAH,EAAAhB,GAAA,CACAG,EAAAH,EACAoB,GAAA,EACAF,QAAA,IAUA,OANAN,EAAAZ,GAAAW,KAAAQ,EAAAD,QAAAC,IAAAD,QAAAJ,GAGAK,EAAAC,GAAA,EAGAD,EAAAD,QAKAJ,EAAAO,EAAAT,EAGAE,EAAAQ,EAAAN,EAGAF,EAAAS,EAAA,SAAAL,EAAAM,EAAAC,GACAX,EAAAY,EAAAR,EAAAM,IACAhB,OAAAmB,eAAAT,EAAAM,EAAA,CACAI,cAAA,EACAC,YAAA,EACAC,IAAAL,KAMAX,EAAAiB,EAAA,SAAAZ,GACA,IAAAM,EAAAN,KAAAa,WACA,WAA2B,OAAAb,EAAA,SAC3B,WAAiC,OAAAA,GAEjC,OADAL,EAAAS,EAAAE,EAAA,IAAAA,GACAA,GAIAX,EAAAY,EAAA,SAAAO,EAAAC,GAAsD,OAAA1B,OAAAC,UAAAC,eAAAC,KAAAsB,EAAAC,IAGtDpB,EAAAqB,EAAA,GAGArB,EAAAsB,GAAA,SAAAC,GAA8D,MAApBC,QAAAC,MAAAF,GAAoBA",
+        "names": Array [
+          "parentJsonpFunction",
+          "window",
+          "chunkIds",
+          "moreModules",
+
+      137 | 
+      138 |             expect(asset.source).toMatchSnapshot(`asset ${file}`);
+    > 139 |             expect(asset.map).toMatchSnapshot(`source map ${file}`);
+      140 |           }
+      141 |         }
+      142 |       });
+      
+      at test/source-map-options.test.js:139:31
+
+  ● when options.sourceMap › true and options.parallel true › matches snapshot
+
+    expect(value).toMatchSnapshot()
+    
+    Received value does not match stored snapshot 1.
+    
+    - "webpackJsonp([0],[
+    /* 0 */
+    /***/ (function(module, exports) {
+    
+    // foo
+    /* @preserve*/
+    // bar
+    var a = 2 + 2;
+    
+    module.exports = function Foo() {
+      var b = 2 + 2;
+      console.log(b + 1 + 2);
+    };
+    
+    
+    /***/ })
+    ],[0]);"
+    + "webpackJsonp([0],[function(o,n){o.exports=function(){console.log(7)}}],[0]);"
+
+      257 |             asset.map.sources = [];
+      258 | 
+    > 259 |             expect(asset.source).toMatchSnapshot(`asset ${file}`);
+      260 |             expect(asset.map).toMatchSnapshot(`source map ${file}`);
+      261 |           }
+      262 |         }
+      
+      at test/source-map-options.test.js:259:34
+
+  ● when options.sourceMap › true and options.parallel true › matches snapshot
+
+    expect(value).toMatchSnapshot()
+    
+    Received value does not match stored snapshot 1.
+    
+    - Snapshot
+    + Received
+    
+    @@ -1,9 +1,15 @@
+      Object {
+        "file": "x",
+    -   "mappings": ";;;;AAAA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA",
+    -   "names": Array [],
+    +   "mappings": "gCAKAA,EAAAC,QAAA,WAEAC,QAAAC,IAAAC",
+    +   "names": Array [
+    +     "module",
+    +     "exports",
+    +     "console",
+    +     "log",
+    +     "b",
+    +   ],
+        "sources": Array [],
+        "sourcesContent": Array [
+          "// foo
+      /* @preserve*/
+      // bar
+
+      258 | 
+      259 |             expect(asset.source).toMatchSnapshot(`asset ${file}`);
+    > 260 |             expect(asset.map).toMatchSnapshot(`source map ${file}`);
+      261 |           }
+      262 |         }
+      263 |       });
+      
+      at test/source-map-options.test.js:260:31
+
+  ● when options.sourceMap › true and options.parallel true › matches snapshot
+
+    expect(value).toMatchSnapshot()
+    
+    Received value does not match stored snapshot 1.
+    
+    - "!function(r){var n=window.webpackJsonp;window.webpackJsonp=function(e,u,c){for(var f,i,p,a=0,l=[];a<e.length;a++)i=e[a],o[i]&&l.push(o[i][0]),o[i]=0;for(f in u)Object.prototype.hasOwnProperty.call(u,f)&&(r[f]=u[f]);for(n&&n(e,u,c);l.length;)l.shift()();if(c)for(a=0;a<c.length;a++)p=t(t.s=c[a]);return p};var e={},o={1:0};function t(n){if(e[n])return e[n].exports;var o=e[n]={i:n,l:!1,exports:{}};return r[n].call(o.exports,o,o.exports,t),o.l=!0,o.exports}t.m=r,t.c=e,t.d=function(r,n,e){t.o(r,n)||Object.defineProperty(r,n,{configurable:!1,enumerable:!0,get:e})},t.n=function(r){var n=r&&r.__esModule?function(){return r.default}:function(){return r};return t.d(n,"a",n),n},t.o=function(r,n){return Object.prototype.hasOwnProperty.call(r,n)},t.p="",t.oe=function(r){throw console.error(r),r}}([]);"
+    + "!function(i){var p=window.webpackJsonp;window.webpackJsonp=function(r,n,e){for(var o,t,u,c=0,f=[];c<r.length;c++)t=r[c],a[t]&&f.push(a[t][0]),a[t]=0;for(o in n)Object.prototype.hasOwnProperty.call(n,o)&&(i[o]=n[o]);for(p&&p(r,n,e);f.length;)f.shift()();if(e)for(c=0;c<e.length;c++)u=l(l.s=e[c]);return u};var e={},a={1:0};function l(r){if(e[r])return e[r].exports;var n=e[r]={i:r,l:!1,exports:{}};return i[r].call(n.exports,n,n.exports,l),n.l=!0,n.exports}l.m=i,l.c=e,l.d=function(r,n,e){l.o(r,n)||Object.defineProperty(r,n,{configurable:!1,enumerable:!0,get:e})},l.n=function(r){var n=r&&r.__esModule?function(){return r.default}:function(){return r};return l.d(n,"a",n),n},l.o=function(r,n){return Object.prototype.hasOwnProperty.call(r,n)},l.p="",l.oe=function(r){throw console.error(r),r}}([]);"
+
+      257 |             asset.map.sources = [];
+      258 | 
+    > 259 |             expect(asset.source).toMatchSnapshot(`asset ${file}`);
+      260 |             expect(asset.map).toMatchSnapshot(`source map ${file}`);
+      261 |           }
+      262 |         }
+      
+      at test/source-map-options.test.js:259:34
+
+  ● when options.sourceMap › true and options.parallel true › matches snapshot
+
+    expect(value).toMatchSnapshot()
+    
+    Received value does not match stored snapshot 1.
+    
+    - Snapshot
+    + Received
+    
+    @@ -1,8 +1,8 @@
+      Object {
+        "file": "x",
+    -   "mappings": "aACA,IAAAA,EAAAC,OAAA,aACAA,OAAA,sBAAAC,EAAAC,EAAAC,GAIA,IADA,IAAAC,EAAAC,EAAAC,EAAAC,EAAA,EAAAC,KACQD,EAAAN,EAAAQ,OAAoBF,IAC5BF,EAAAJ,EAAAM,GACAG,EAAAL,IACAG,EAAAG,KAAAD,EAAAL,GAAA,IAEAK,EAAAL,GAAA,EAEA,IAAAD,KAAAF,EACAU,OAAAC,UAAAC,eAAAC,KAAAb,EAAAE,KACAY,EAAAZ,GAAAF,EAAAE,IAIA,IADAL,KAAAE,EAAAC,EAAAC,GACAK,EAAAC,QACAD,EAAAS,OAAAT,GAEA,GAAAL,EACA,IAAAI,EAAA,EAAYA,EAAAJ,EAAAM,OAA2BF,IACvCD,EAAAY,IAAAC,EAAAhB,EAAAI,IAGA,OAAAD,GAIA,IAAAc,KAGAV,GACAW,EAAA,GAIA,SAAAH,EAAAd,GAGA,GAAAgB,EAAAhB,GACA,OAAAgB,EAAAhB,GAAAkB,QAGA,IAAAC,EAAAH,EAAAhB,IACAG,EAAAH,EACAoB,GAAA,EACAF,YAUA,OANAN,EAAAZ,GAAAW,KAAAQ,EAAAD,QAAAC,IAAAD,QAAAJ,GAGAK,EAAAC,GAAA,EAGAD,EAAAD,QAKAJ,EAAAO,EAAAT,EAGAE,EAAAQ,EAAAN,EAGAF,EAAAS,EAAA,SAAAL,EAAAM,EAAAC,GACAX,EAAAY,EAAAR,EAAAM,IACAhB,OAAAmB,eAAAT,EAAAM,GACAI,cAAA,EACAC,YAAA,EACAC,IAAAL,KAMAX,EAAAiB,EAAA,SAAAZ,GACA,IAAAM,EAAAN,KAAAa,WACA,WAA2B,OAAAb,EAAA,SAC3B,WAAiC,OAAAA,GAEjC,OADAL,EAAAS,EAAAE,EAAA,IAAAA,GACAA,GAIAX,EAAAY,EAAA,SAAAO,EAAAC,GAAsD,OAAA1B,OAAAC,UAAAC,eAAAC,KAAAsB,EAAAC,IAGtDpB,EAAAqB,EAAA,GAGArB,EAAAsB,GAAA,SAAAC,GAA8D,MAApBC,QAAAC,MAAAF,GAAoBA",
+    +   "mappings": "aACA,IAAAA,EAAAC,OAAA,aACAA,OAAA,sBAAAC,EAAAC,EAAAC,GAIA,IADA,IAAAC,EAAAC,EAAAC,EAAAC,EAAA,EAAAC,EAAA,GACQD,EAAAN,EAAAQ,OAAoBF,IAC5BF,EAAAJ,EAAAM,GACAG,EAAAL,IACAG,EAAAG,KAAAD,EAAAL,GAAA,IAEAK,EAAAL,GAAA,EAEA,IAAAD,KAAAF,EACAU,OAAAC,UAAAC,eAAAC,KAAAb,EAAAE,KACAY,EAAAZ,GAAAF,EAAAE,IAIA,IADAL,KAAAE,EAAAC,EAAAC,GACAK,EAAAC,QACAD,EAAAS,OAAAT,GAEA,GAAAL,EACA,IAAAI,EAAA,EAAYA,EAAAJ,EAAAM,OAA2BF,IACvCD,EAAAY,IAAAC,EAAAhB,EAAAI,IAGA,OAAAD,GAIA,IAAAc,EAAA,GAGAV,EAAA,CACAW,EAAA,GAIA,SAAAH,EAAAd,GAGA,GAAAgB,EAAAhB,GACA,OAAAgB,EAAAhB,GAAAkB,QAGA,IAAAC,EAAAH,EAAAhB,GAAA,CACAG,EAAAH,EACAoB,GAAA,EACAF,QAAA,IAUA,OANAN,EAAAZ,GAAAW,KAAAQ,EAAAD,QAAAC,IAAAD,QAAAJ,GAGAK,EAAAC,GAAA,EAGAD,EAAAD,QAKAJ,EAAAO,EAAAT,EAGAE,EAAAQ,EAAAN,EAGAF,EAAAS,EAAA,SAAAL,EAAAM,EAAAC,GACAX,EAAAY,EAAAR,EAAAM,IACAhB,OAAAmB,eAAAT,EAAAM,EAAA,CACAI,cAAA,EACAC,YAAA,EACAC,IAAAL,KAMAX,EAAAiB,EAAA,SAAAZ,GACA,IAAAM,EAAAN,KAAAa,WACA,WAA2B,OAAAb,EAAA,SAC3B,WAAiC,OAAAA,GAEjC,OADAL,EAAAS,EAAAE,EAAA,IAAAA,GACAA,GAIAX,EAAAY,EAAA,SAAAO,EAAAC,GAAsD,OAAA1B,OAAAC,UAAAC,eAAAC,KAAAsB,EAAAC,IAGtDpB,EAAAqB,EAAA,GAGArB,EAAAsB,GAAA,SAAAC,GAA8D,MAApBC,QAAAC,MAAAF,GAAoBA",
+        "names": Array [
+          "parentJsonpFunction",
+          "window",
+          "chunkIds",
+          "moreModules",
+
+      258 | 
+      259 |             expect(asset.source).toMatchSnapshot(`asset ${file}`);
+    > 260 |             expect(asset.map).toMatchSnapshot(`source map ${file}`);
+      261 |           }
+      262 |         }
+      263 |       });
+      
+      at test/source-map-options.test.js:260:31
+
+ › 4 obsolete snapshots found.
+  - when options.sourceMap true and options.parallel true matches snapshot: asset main.0c220ec66316af2c1b24.js 1
+  - when options.sourceMap true and options.parallel true matches snapshot: source map main.0c220ec66316af2c1b24.js 1
+  - when options.sourceMap true matches snapshot: asset main.0c220ec66316af2c1b24.js 1
+  - when options.sourceMap true matches snapshot: source map main.0c220ec66316af2c1b24.js 1
+ › 6 snapshot tests failed.
+PASS test/cache-options.test.js
+  ● Console
+
+    console.log src/index.js:46
+       0 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       webpackBootstrap
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       install a JSONP callback for chunk loading
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       add "moreModules" to the modules object,
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       then flag all "chunkIds" as loaded and fire callback
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       objects to store loaded and loading chunks
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The require function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Check if module is in cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Create a new module (and put it into the cache)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Execute the module function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Return the exports of the module
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Flag the module as loaded
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the modules object (__webpack_modules__)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       define getter function for harmony exports
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       getDefaultExport function for compatibility with non-harmony modules
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Object.prototype.hasOwnProperty.call
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       __webpack_public_path__
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       on error function for async loading
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      **********************************************************************
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       0 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       webpackBootstrap
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       install a JSONP callback for chunk loading
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       add "moreModules" to the modules object,
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       then flag all "chunkIds" as loaded and fire callback
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       objects to store loaded and loading chunks
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The require function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Check if module is in cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Create a new module (and put it into the cache)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Execute the module function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Return the exports of the module
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Flag the module as loaded
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the modules object (__webpack_modules__)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       define getter function for harmony exports
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       getDefaultExport function for compatibility with non-harmony modules
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Object.prototype.hasOwnProperty.call
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       __webpack_public_path__
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       on error function for async loading
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      **********************************************************************
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       0 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       webpackBootstrap
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       install a JSONP callback for chunk loading
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       add "moreModules" to the modules object,
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       then flag all "chunkIds" as loaded and fire callback
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       objects to store loaded and loading chunks
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The require function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Check if module is in cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Create a new module (and put it into the cache)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Execute the module function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Return the exports of the module
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Flag the module as loaded
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the modules object (__webpack_modules__)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       define getter function for harmony exports
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       getDefaultExport function for compatibility with non-harmony modules
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Object.prototype.hasOwnProperty.call
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       __webpack_public_path__
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       on error function for async loading
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      **********************************************************************
+    console.log src/index.js:46
+      ****
+
+PASS test/exclude-option.test.js
+  ● Console
+
+    console.log src/index.js:46
+       0 
+    console.log src/index.js:46
+       1 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+       1 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       webpackBootstrap
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       install a JSONP callback for chunk loading
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       add "moreModules" to the modules object,
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       then flag all "chunkIds" as loaded and fire callback
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       objects to store loaded and loading chunks
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The require function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Check if module is in cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Create a new module (and put it into the cache)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Execute the module function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Return the exports of the module
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Flag the module as loaded
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the modules object (__webpack_modules__)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       define getter function for harmony exports
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       getDefaultExport function for compatibility with non-harmony modules
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Object.prototype.hasOwnProperty.call
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       __webpack_public_path__
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       on error function for async loading
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      **********************************************************************
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       webpackBootstrap
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       install a JSONP callback for chunk loading
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       add "moreModules" to the modules object,
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       then flag all "chunkIds" as loaded and fire callback
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       objects to store loaded and loading chunks
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The require function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Check if module is in cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Create a new module (and put it into the cache)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Execute the module function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Return the exports of the module
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Flag the module as loaded
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the modules object (__webpack_modules__)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       define getter function for harmony exports
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       getDefaultExport function for compatibility with non-harmony modules
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Object.prototype.hasOwnProperty.call
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       __webpack_public_path__
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       on error function for async loading
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      **********************************************************************
+    console.log src/index.js:46
+      ****
+
+PASS test/supports-multicompiler.test.js
+  ● Console
+
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       webpackBootstrap
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The require function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Check if module is in cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Create a new module (and put it into the cache)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Execute the module function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Return the exports of the module
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Flag the module as loaded
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the modules object (__webpack_modules__)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Load entry module and return exports
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       define getter function for harmony exports
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       getDefaultExport function for compatibility with non-harmony modules
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Object.prototype.hasOwnProperty.call
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       __webpack_public_path__
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      **********************************************************************
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       0 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       webpackBootstrap
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The require function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Check if module is in cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Create a new module (and put it into the cache)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Execute the module function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Return the exports of the module
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Flag the module as loaded
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the modules object (__webpack_modules__)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Load entry module and return exports
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       define getter function for harmony exports
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       getDefaultExport function for compatibility with non-harmony modules
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Object.prototype.hasOwnProperty.call
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       __webpack_public_path__
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      **********************************************************************
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       0 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+       harmony import 
+    console.log src/index.js:46
+       harmony default export 
+    console.log src/index.js:46
+       1 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+       harmony export (binding) 
+    console.log src/index.js:46
+       harmony default export 
+    console.log src/index.js:46
+      ****
+
+PASS test/test.test.js
+  ● Console
+
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+       harmony default export 
+    console.log src/index.js:46
+       0 
+    console.log src/index.js:46
+       1 
+    console.log src/index.js:46
+       2 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+       2 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+       harmony import 
+    console.log src/index.js:46
+       harmony default export 
+    console.log src/index.js:46
+       3 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+       harmony export (binding) 
+    console.log src/index.js:46
+       harmony default export 
+    console.log src/index.js:46
+       0 
+    console.log src/index.js:46
+       1 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+       1 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+       0 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+       import() 
+    console.log src/index.js:46
+       harmony default export 
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       webpackBootstrap
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       install a JSONP callback for chunk loading
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       add "moreModules" to the modules object,
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       then flag all "chunkIds" as loaded and fire callback
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       objects to store loaded and loading chunks
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The require function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Check if module is in cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Create a new module (and put it into the cache)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Execute the module function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Return the exports of the module
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Flag the module as loaded
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       This file contains only the entry chunk.
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The chunk loading function for additional chunks
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       a Promise means "currently loading".
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       setup Promise in chunk cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       start chunk loading
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       avoid mem leaks in IE.
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the modules object (__webpack_modules__)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       define getter function for harmony exports
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       getDefaultExport function for compatibility with non-harmony modules
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Object.prototype.hasOwnProperty.call
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       __webpack_public_path__
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       on error function for async loading
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      **********************************************************************
+    console.log src/index.js:46
+      ****
+
+PASS test/empty-options.test.js
+  ● Console
+
+    console.log src/index.js:46
+       0 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       webpackBootstrap
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       install a JSONP callback for chunk loading
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       add "moreModules" to the modules object,
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       then flag all "chunkIds" as loaded and fire callback
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       objects to store loaded and loading chunks
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       The require function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Check if module is in cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Create a new module (and put it into the cache)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Execute the module function
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Return the exports of the module
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Flag the module as loaded
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the modules object (__webpack_modules__)
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       expose the module cache
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       define getter function for harmony exports
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       getDefaultExport function for compatibility with non-harmony modules
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       Object.prototype.hasOwnProperty.call
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       __webpack_public_path__
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+       on error function for async loading
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      **********************************************************************
+    console.log src/index.js:46
+      ****
+    console.log src/index.js:46
+      * @preserve Foo Bar 
+    console.log src/index.js:46
+      * @preserve Foo Bar 
+    console.log src/index.js:46
+      * @preserve Foo Bar 
+    console.log src/index.js:46
+      * @preserve Foo Bar 
+    console.log src/index.js:46
+      * @preserve Foo Bar 
+
+PASS test/uglify-options.test.js
+PASS test/include-options.test.js
+  ● Console
+
+    console.log src/index.js:46
+       0 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+       0 
+    console.log src/index.js:46
+       1 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+       1 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+       0 
+    console.log src/index.js:46
+      *
+    console.log src/index.js:46
+      *
+
+PASS test/invalid-options.test.js
+PASS test/all-options.test.js
+PASS test/extract-option-set-to-a-single-file.test.js
+PASS test/extract-comments-options.test.js
+  ● Console
+
+    console.log src/index.js:46
+       Comment
+    console.log src/index.js:46
+      ! Legal Comment 
+
+PASS test/UglifyJsPlugin.test.js
+PASS test/uglify/worker.test.js
+
+Snapshot Summary
+ › 11 snapshot tests failed in 2 test suites. Inspect your code changes or run `npm test -- -u` to update them.
+ › 7 obsolete snapshots found, run `npm test -- -u` to remove them.
+
+Test Suites: 2 failed, 13 passed, 15 total
+Tests:       5 failed, 120 passed, 125 total
+Snapshots:   11 failed, 148 passed, 159 total
+Time:        6.544s
+Ran all test suites.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! uglifyjs-3-webpack-plugin@1.2.4 test: `jest`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the uglifyjs-3-webpack-plugin@1.2.4 test script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/haotian.wu/.npm/_logs/2018-04-12T03_59_45_904Z-debug.log
