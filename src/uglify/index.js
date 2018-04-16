@@ -28,7 +28,11 @@ export default class {
     if (this.maxConcurrentWorkers > 0) {
       const workerOptions = process.platform === 'win32' ? { maxConcurrentWorkers: this.maxConcurrentWorkers, maxConcurrentCallsPerWorker: 1 } : { maxConcurrentWorkers: this.maxConcurrentWorkers };
       this.workers = workerFarm(workerOptions, workerFile);
-      this.boundWorkers = (options, cb) => this.workers(serialize(options), cb);
+      this.boundWorkers = (options, cb) => this.workers(serialize({
+        ...options,
+        // sourceMap is a native function, ignore it
+        sourceMap: '',
+      }), cb);
     } else {
       this.boundWorkers = (options, cb) => {
         try {
