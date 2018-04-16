@@ -3,7 +3,6 @@
 [![deps][deps]][deps-url]
 [![test][test]][test-url]
 [![coverage][cover]][cover-url]
-[![chat][chat]][chat-url]
 
 
 <div align="center">
@@ -44,7 +43,7 @@ module.exports = {
 |**`cache`**|`{Boolean\|String}`|`false`|Enable file caching|
 |**`parallel`**|`{Boolean\|Number}`|`false`|Use multi-process parallel running to improve the build speed|
 |**`sourceMap`**|`{Boolean}`|`false`|Use source maps to map error message locations to modules (This slows down the compilation) ⚠️ **`cheap-source-map` options don't work with this plugin**|
-|**`uglifyOptions`**|`{Object}`|[`{...defaults}`](https://github.com/webpack-contrib/uglifyjs-webpack-plugin/tree/master#uglifyoptions)|`uglify` [Options](https://github.com/mishoo/UglifyJS2/tree/master#minify-options)|
+|**`uglifyOptions`**|`{Object}`|[`{...defaults}`](https://github.com/whtsky/uglifyjs-3-webpack-plugin/tree/master#uglifyoptions)|`uglify` [Options](https://github.com/mishoo/UglifyJS2/tree/master#minify-options)|
 |**`extractComments`**|`{Boolean\|RegExp\|Function<(node, comment) -> {Boolean\|Object}>}`|`false`|Whether comments shall be extracted to a separate file, (see [details](https://github.com/webpack/webpack/commit/71933e979e51c533b432658d5e37917f9e71595a) (`webpack >= 2.3.0`)|
 |**`warningsFilter`**|`{Function(source) -> {Boolean}}`|`() => true`|Allow to filter uglify warnings|
 
@@ -225,65 +224,17 @@ All comments that match the given expression (resp. are evaluated to `true` by t
 ]
 ```
 
-<h2 align="center">Maintainers</h2>
+[npm]: https://img.shields.io/npm/v/uglifyjs-3-webpack-plugin.svg
+[npm-url]: https://npmjs.com/package/uglifyjs-3-webpack-plugin
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/hulkish">
-          <img width="150" height="150" src="https://github.com/hulkish.png?size=150">
-          </br>
-          Steven Hargrove
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/bebraw">
-          <img width="150" height="150" src="https://github.com/bebraw.png?v=3&s=150">
-          </br>
-          Juho Vepsäläinen
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/d3viant0ne">
-          <img width="150" height="150" src="https://github.com/d3viant0ne.png?v=3&s=150">
-          </br>
-          Joshua Wiens
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/michael-ciniawsky">
-          <img width="150" height="150" src="https://github.com/michael-ciniawsky.png?v=3&s=150">
-          </br>
-          Michael Ciniawsky
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/evilebottnawi">
-          <img width="150" height="150" src="https://github.com/evilebottnawi.png?v=3&s=150">
-          </br>
-          Alexander Krasnoyarov
-        </a>
-      </td>
-    </tr>
-  <tbody>
-</table>
-
-
-[npm]: https://img.shields.io/npm/v/uglifyjs-webpack-plugin.svg
-[npm-url]: https://npmjs.com/package/uglifyjs-webpack-plugin
-
-[node]: https://img.shields.io/node/v/uglifyjs-webpack-plugin.svg
+[node]: https://img.shields.io/node/v/uglifyjs-3-webpack-plugin.svg
 [node-url]: https://nodejs.org
 
-[deps]: https://david-dm.org/webpack-contrib/uglifyjs-webpack-plugin.svg
-[deps-url]: https://david-dm.org/webpack-contrib/uglifyjs-webpack-plugin
+[deps]: https://david-dm.org/whtsky/uglifyjs-3-webpack-plugin.svg
+[deps-url]: https://david-dm.org/whtsky/uglifyjs-3-webpack-plugin
 
-[test]: 	https://img.shields.io/circleci/project/github/webpack-contrib/uglifyjs-webpack-plugin.svg
-[test-url]: https://circleci.com/gh/webpack-contrib/uglifyjs-webpack-plugin
+[test]: 	https://img.shields.io/circleci/project/github/whtsky/uglifyjs-3-webpack-plugin.svg
+[test-url]: https://circleci.com/gh/whtsky/uglifyjs-3-webpack-plugin
 
-[cover]: https://codecov.io/gh/webpack-contrib/uglifyjs-webpack-plugin/branch/master/graph/badge.svg
-[cover-url]: https://codecov.io/gh/webpack-contrib/uglifyjs-webpack-plugin
-
-[chat]: https://img.shields.io/badge/gitter-webpack%2Fwebpack-brightgreen.svg
-[chat-url]: https://gitter.im/webpack/webpack
+[cover]: https://codecov.io/gh/whtsky/uglifyjs-3-webpack-plugin/branch/master/graph/badge.svg
+[cover-url]: https://codecov.io/gh/whtsky/uglifyjs-3-webpack-plugin
