@@ -190,6 +190,11 @@ class UglifyJsPlugin {
       uglify.runTasks(tasks, (tasksError, results) => {
         if (tasksError) {
           compilation.errors.push(tasksError);
+          results.map((_, index) => tasks[index].sourceMap).forEach((sourceMap) => {
+            if (sourceMap) {
+              sourceMap.destroy();
+            }
+          });
           return;
         }
 
@@ -208,6 +213,9 @@ class UglifyJsPlugin {
                 requestShortener,
               ),
             );
+            if (sourceMap) {
+              sourceMap.destroy();
+            }
 
             return;
           }
