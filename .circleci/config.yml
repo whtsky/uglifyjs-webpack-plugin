@@ -64,10 +64,6 @@ jobs:
           name: Submit coverage data to codecov.
           command: bash <(curl -s https://codecov.io/bash)
           when: on_success
-  node6-latest:
-    docker:
-      - image: webpackcontrib/circleci-node6:latest
-    <<: *unit_tests
   node9-latest:
     docker:
       - image: webpackcontrib/circleci-node9:latest
@@ -118,12 +114,6 @@ workflows:
   validate-publish:
     jobs:
       - dependency_cache
-      - node6-latest:
-          requires:
-            - dependency_cache
-          filters:
-            tags:
-              only: /.*/
       - analysis:
           requires:
             - dependency_cache
@@ -133,7 +123,6 @@ workflows:
       - node8-latest:
           requires:
             - analysis
-            - node6-latest
           filters:
             tags:
               only: /.*/
