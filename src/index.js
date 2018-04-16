@@ -101,7 +101,7 @@ class UglifyJsPlugin {
       moduleArg.useSourceMap = true;
     };
 
-    const optimizeFn = (compilation, chunks, callback) => {
+    const optimizeFn = async (compilation, chunks, callback) => {
       const uglify = new Uglify({
         cache: this.options.cache,
         parallel: this.options.parallel,
@@ -110,10 +110,10 @@ class UglifyJsPlugin {
       const uglifiedAssets = new WeakSet();
       const tasks = [];
 
-      chunks.reduce((acc, chunk) => acc.concat(chunk.files || []), [])
+      await Promise.all(chunks.reduce((acc, chunk) => acc.concat(chunk.files || []), [])
         .concat(compilation.additionalChunkAssets || [])
         .filter(ModuleFilenameHelpers.matchObject.bind(null, this.options))
-        .forEach((file) => {
+        .map(async (file) => {
           let sourceMap;
           const asset = compilation.assets[file];
           if (uglifiedAssets.has(asset)) {
@@ -131,7 +131,7 @@ class UglifyJsPlugin {
 
               if (utils.isSourceMap(map)) {
                 inputSourceMap = map;
-                sourceMap = new SourceMapConsumer(inputSourceMap);
+                sourceMap = await new SourceMapConsumer(inputSourceMap);
               } else {
                 inputSourceMap = map;
                 sourceMap = null;
@@ -185,7 +185,7 @@ class UglifyJsPlugin {
               ),
             );
           }
-        });
+        }));
 
       uglify.runTasks(tasks, (tasksError, results) => {
         if (tasksError) {
@@ -276,6 +276,9 @@ class UglifyJsPlugin {
                 compilation.warnings.push(builtWarning);
               }
             });
+          }
+          if (sourceMap) {
+            sourceMap.destroy();
           }
         });
 
