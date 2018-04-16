@@ -1,7 +1,7 @@
 {
   "name": "uglifyjs-3-webpack-plugin",
   "version": "1.2.4",
-  "description": "UglifyJS plugin for webpack",
+  "description": "UglifyJS 3 plugin for webpack",
   "author": "webpack Contrib Team",
   "license": "MIT",
   "publishConfig": {
@@ -9,7 +9,7 @@
     "access": "public"
   },
   "engines": {
-    "node": ">= 4.8 < 5.0.0 || >= 5.10"
+    "node": ">= 8"
   },
   "main": "dist/cjs.js",
   "files": [
