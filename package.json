@@ -40,7 +40,7 @@
     "schema-utils": "^0.4.5",
     "serialize-javascript": "^1.5.0",
     "source-map": "^0.7.3",
-    "uglify-js": "^3.4.2",
+    "uglify-js": "^3.4.3",
     "webpack-sources": "^1.1.0",
     "worker-farm": "^1.5.2"
   },
