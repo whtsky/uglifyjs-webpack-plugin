@@ -37,7 +37,7 @@
   "dependencies": {
     "cacache": "^11.1.0",
     "find-cache-dir": "^1.0.0",
-    "schema-utils": "^0.4.5",
+    "schema-utils": "^0.4.7",
     "serialize-javascript": "^1.5.0",
     "source-map": "^0.7.3",
     "uglify-js": "^3.4.6",
