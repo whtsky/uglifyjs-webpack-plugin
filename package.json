@@ -35,7 +35,7 @@
     "webpack-defaults": "webpack-defaults"
   },
   "dependencies": {
-    "cacache": "^11.1.0",
+    "cacache": "^11.2.0",
     "find-cache-dir": "^1.0.0",
     "schema-utils": "^0.4.5",
     "serialize-javascript": "^1.5.0",
